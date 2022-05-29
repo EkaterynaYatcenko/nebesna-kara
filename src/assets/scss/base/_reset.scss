@@ -1,0 +1,86 @@
+.tooltip,a {
+	text-decoration: none;
+}
+
+.container:after,.form-group.in-progress:after,.form-group.in-progress:before,.list-features:after,.section:after,blockquote:after,blockquote:before,body.has-blue-block:before,header nav ul:after,header:after,q:after,q:before {
+	content: "";
+}
+
+.btn,.cell,caption,td,th {
+	vertical-align: middle;
+}
+
+strong {
+	font-family: $font-bold;
+}
+
+html {
+	line-height: 1;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+caption,td,th {
+	text-align: left;
+	font-weight: 400;
+}
+
+blockquote,q {
+	quotes: none
+}
+
+blockquote:after,blockquote:before,q:after,q:before {
+	content: none;
+}
+
+a img {
+	border: none;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+	display: block;
+}
+
+a {
+	cursor: pointer;
+	transition-duration: .15s;
+	transition-property: color,opacity;
+	transition-timing-function: ease-in;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+@-webkit-keyframes autofill {
+	to {
+		color: #000;
+		background: #fff;
+	}
+}
+
+@-webkit-keyframes autofill2 {
+	to {
+		color: #fff;
+		background: 0 0;
+	}
+}
+
+input:-webkit-autofill {
+	-webkit-animation-name: autofill;
+	-webkit-animation-fill-mode: both;
+}
+
+input.complete:-webkit-autofill {
+	-webkit-animation-name: autofill2;
+	-webkit-animation-fill-mode: both;
+}

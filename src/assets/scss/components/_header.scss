@@ -1,0 +1,268 @@
+#header-sticky {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: $main-bg-color;
+    box-shadow: 0 0.3rem 0.5rem 0 rgb(0 1 1 / 10%);
+    height: 9.4rem;
+    opacity: 0;
+    width: 100%;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+    &.show-sticky {
+        opacity: 1;
+        transform: translateZ(0);
+        z-index: 12;
+    }
+    .nav-wrapper {
+        margin: 0 !important;
+        height: 100%;
+        .hamburger-menu-button-open {
+            top: 1.2rem !important;
+        }
+        @include respond(tab-land) {
+            padding: 0 4rem;
+        }
+        @include respond(phone) {
+            padding: 0 2rem;
+        }
+    }
+    .logo-wrap, #desktop-menu {
+        align-self: center;
+    }
+}
+
+#header-sticky,
+header {
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+        @include respond(tab-land-2) {
+            margin-top: 2.5rem;
+        }
+        @include respond (tab-port-3) {
+            margin-top: 0;
+        }
+
+        @include respond (phone) {
+            margin-top: 2.5rem;
+            .logo-wrap {
+                a {
+                    img {
+                        width: 20rem;
+                    }
+                }
+            }
+        }
+
+        #desktop-menu {
+            flex: 1 1 60%;
+            ul {
+                display: flex;
+                justify-content: flex-end;
+                li {
+                    text-transform: uppercase;
+                    &:not(:last-of-type) {
+                        margin-right: 4%;
+                    }
+                    a {
+                        font-size: 1.4rem;
+                        font-family: $font-medium;
+                        color: $main-text-color;
+                        &:hover {
+                            color: $hover-color;
+                        }
+                    }
+                }
+            }
+            @include respond (tab-port-3) {
+                display: none;
+            }
+        }
+        .hamburger-menu-button-open,
+        .blackout-menu,
+        .hamburger-menu  {
+            display: none;
+        }
+        .blackout-menu {
+            display: block;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			display: none;
+			z-index: 12;
+			background: rgba(0, 0, 0, 0.5);
+        }
+        .show-nav {
+            display: block;
+        }
+        .show-nav + .hamburger-menu {
+            display: block;
+            opacity: 1;
+            right: 0;
+        }
+        .hamburger-menu {
+            display: block;
+            position: fixed;
+            background-color: $main-bg-color;
+            padding-right: 3rem;
+            width: 80%;
+            height: 100%;
+            right: -80%;
+            top: 0;
+            opacity: 0;
+            box-shadow: 0 0.3rem 0.5rem 0 rgb(0 1 1 / 10%);
+            z-index: 12;
+            transition: all .4s ease;
+            .hamburger-menu-button-close {
+				position: absolute;
+				top: 0.8rem;
+				right: 0;
+				display: inline-block;
+				padding: 1.5rem 2.5rem;
+				font-size: 0;
+				&::before {
+					content: "|";
+					display: block;
+					background: $main-text-color;
+					height: 2.3rem;
+					width: 0.15rem;
+					-ms-transform: rotate(45deg);
+					-webkit-transform: rotate(45deg);
+					transform: rotate(45deg);
+				}
+				&:after {
+					content: "|";
+					display: block;
+					position: absolute;
+					background: $main-text-color;
+					height: 2.3rem;
+					width: 0.15rem;
+					top: 1.5rem;
+					-ms-transform: rotate(135deg);
+					-webkit-transform: rotate(135deg);
+					transform: rotate(135deg);
+				}
+            }
+            ul {
+                padding: 3rem;
+                li {
+                    text-transform: uppercase;
+                    padding-bottom: 3rem;
+                    a {
+                        font-size: 1.4rem;
+                        font-family: $font-medium;
+                        color: $main-text-color;
+                        &:hover {
+                            color: $hover-color;
+                        }
+                    }
+                }
+            }
+        }
+        @include respond (tab-port-3) {
+            .hamburger-menu-button-open {
+                display: block;
+                position: absolute;
+                right: 0px;
+                top: 0.8rem;
+                width: 2.6rem;
+                height: 2rem;
+                margin-right: 3rem;
+                padding: 3rem;
+                z-index: 2;
+                @include respond(phone) {
+                    margin-right: 1rem;
+                }
+                &::before {
+                    content: "";
+                    height: 0.2rem;
+                    top: 3.6rem;
+                    right: 1.5rem;
+                    width: 2.6rem;
+                    background: $main-text-color;
+                    position: absolute;
+                }
+                &::after {
+                    content: "";
+                    height: 0.2rem;
+                    top: 2rem;
+                    right: 1.5rem;
+                    width: 2.6rem;
+                    background: $main-text-color;
+                    position: absolute;
+                }
+                span {
+                    height: 0.2rem;
+                    width: 2.6rem;
+                    background: $main-text-color;
+                    position: absolute;
+                    z-index: 999;
+                    top: 2.8rem;
+                    right: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+.header {
+    .container {
+        margin-top: 9rem;
+        @include respond(tab-land-2) {
+            padding-bottom: 7rem;
+            margin-top: 4.5rem;
+        }
+        @include respond(tab-port) {
+            margin-top: 2.5rem;
+        }
+        .section-intro {
+            &__content {
+                display: flex;
+                justify-content: space-between;
+                .text {
+                    flex: 0 0 47%;
+                    p {
+                        font-size: 1.6rem;
+                        line-height: 1.562;
+                        &:first-of-type {
+                            padding-bottom: 2.8rem;
+                            @include respond(phone) {
+                                padding-bottom: 1.8rem;
+                            }
+                        }
+                    }
+                }
+                .header-image {
+                    z-index: 10;
+                }
+            }
+            @include respond(tab-land-2) {
+                .header-image {
+                    flex: 0 0 50%;
+                    img {
+                        display: block;
+                        width: 33rem;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            @include respond(tab-port) {
+                &__content {
+                    flex-direction: column;
+                    .header-image {
+                        margin-top: 4rem;
+                    }
+                }
+            }
+            @include respond(phone) {
+                .header-image {
+                    display: none;
+                }
+            }
+        }
+    }
+}

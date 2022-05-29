@@ -1,0 +1,24 @@
+.nav-wrapper {
+	width: 100%;
+	padding: 0 4rem;
+	margin: 0 auto;
+	@include respond(tab-land) {
+		width: 100%;
+		padding: 2.5rem 4rem 0 4rem;
+	}
+	@include respond(phone) {
+		padding: 0 2rem;
+	}
+}
+
+.container {
+	width: 120rem;
+	margin: 0 auto;
+	@include respond(largest) {
+		width: auto;
+		padding: 0 4rem;
+	}
+	@include respond(phone) {
+		padding: 0 2rem;
+	}
+}
