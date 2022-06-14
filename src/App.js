@@ -10,6 +10,7 @@ import coverImage from './assets/images/cover-image.svg';
 import blades from './assets/images/blades.svg';
 import arrowRight from './assets/images/arrow-right.svg';
 import arrowLeft from './assets/images/arrow-left.svg';
+import donateBtn from './assets/images/donate-btn.svg';
 // carousel imgages
 import carouselImage1 from './assets/images/carousel/carousel-img-1.png';
 import carouselImage2 from './assets/images/carousel/carousel-img-2.png';
@@ -447,28 +448,31 @@ function App() {
                         <h3>We are open for donations.</h3>
                         <p>All money will be spent on drone parts &amp; equipment.</p>
                       </div>
-                      
                       <div className="donetion-option pay-pal">
                         <div className="donetion-name-holder">
-                          <p><strong>PayPal</strong></p>
-                          <p id="copy-success-paypal" className="copy-success">Copied!</p>
+                            <p><strong>PayPal</strong></p>
+                            <p id="copy-success-paypal" className="copy-success">Copied!</p>
                         </div>
                         <div className="donetion-option-container">
-                          <img width="60px" height="60px" src={paypal} alt="PayPal icon" />
+                            <img width="60px" height="60px" src={paypal} alt="PayPal icon" />
 
-                          <div className="donation-text-copy">
-                            donate@nebesnakara.com
-                          </div>
-                          <div className="donation-copy">
-                            <img src={copy} alt="PayPal icon" onClick={() => copyToClipBoardPayPal('donate@nebesnakara.com')} />
-                          </div>
+                            <div className="donation-text-copy">
+                                <a target="_blank" href="https://www.paypal.com/donate?token=cTs6Uzt0i3dUSzmVAG48RWUG1mgkyYVQr6wT3UZA0WKpE_epxbaokdCLi-svhPIJ5wqiLrcJDPMTVsJq">Click to donate</a>
+                            </div>
+                            <div className="donation-copy pay-pal-copy">
+                                <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                                    <input type="hidden" name="hosted_button_id" value="XP5QP97WE8D88" />
+                                    <input type="image" src={donateBtn} border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                                    <img alt="" border="0" src="https://www.paypal.com/en_UA/i/scr/pixel.gif" width="1" height="1" />
+                                </form>
+                            </div>
                         </div>
-                      </div>
+                     </div>
                     </div>
                     <div className="donation-option-column">
                       <div className="donetion-option ustd">
                         <div className="donetion-name-holder">
-                          <p><strong>USTD (TRC20)</strong></p>
+                          <p><strong>USDT (TRC20)</strong></p>
                           <p id="copy-success-ustd" className="copy-success">Copied!</p>
                         </div>
                           <div className="donetion-option-container">
