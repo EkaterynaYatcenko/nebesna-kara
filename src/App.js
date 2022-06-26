@@ -12,41 +12,87 @@ import arrowRight from './assets/images/arrow-right.svg';
 import arrowLeft from './assets/images/arrow-left.svg';
 import donateBtn from './assets/images/donate-btn.svg';
 // carousel imgages
-import carouselImage1 from './assets/images/carousel/carousel-img-1.png';
-import carouselImage2 from './assets/images/carousel/carousel-img-2.png';
-import carouselImage3 from './assets/images/carousel/carousel-img-3.png';
-import carouselImage4 from './assets/images/carousel/carousel-img-4.png';
-import carouselImage5 from './assets/images/carousel/carousel-img-5.png';
-import carouselImage6 from './assets/images/carousel/carousel-img-6.png';
-import carouselImage7 from './assets/images/carousel/carousel-img-7.png';
-import carouselImage8 from './assets/images/carousel/carousel-img-8.png';
+import carouselImage1 from './assets/images/carousel/carousel-img-1.jpg';
+import carouselImage2 from './assets/images/carousel/carousel-img-2.jpg';
+import carouselImage3 from './assets/images/carousel/carousel-img-3.jpg';
+import carouselImage4 from './assets/images/carousel/carousel-img-4.jpg';
+import carouselImage5 from './assets/images/carousel/carousel-img-5.jpg';
+import carouselImage6 from './assets/images/carousel/carousel-img-6.jpg';
+import carouselImage7 from './assets/images/carousel/carousel-img-7.jpg';
+import carouselImage8 from './assets/images/carousel/carousel-img-8.jpg';
 
-import carouselImage9 from './assets/images/carousel/carousel-img-9.png';
-import carouselImage10 from './assets/images/carousel/carousel-img-10.png';
-import carouselImage11 from './assets/images/carousel/carousel-img-11.png';
-import carouselImage12 from './assets/images/carousel/carousel-img-12.png';
-import carouselImage13 from './assets/images/carousel/carousel-img-13.png';
-import carouselImage14 from './assets/images/carousel/carousel-img-14.png';
-import carouselImage15 from './assets/images/carousel/carousel-img-15.png';
-import carouselImage16 from './assets/images/carousel/carousel-img-16.png';
-import carouselImage17 from './assets/images/carousel/carousel-img-17.png';
+import carouselImage9 from './assets/images/carousel/carousel-img-9.jpg';
+import carouselImage10 from './assets/images/carousel/carousel-img-10.jpg';
+import carouselImage11 from './assets/images/carousel/carousel-img-11.jpg';
+import carouselImage12 from './assets/images/carousel/carousel-img-12.jpg';
+import carouselImage13 from './assets/images/carousel/carousel-img-13.jpg';
+import carouselImage14 from './assets/images/carousel/carousel-img-14.jpg';
+import carouselImage15 from './assets/images/carousel/carousel-img-15.jpg';
+import carouselImage16 from './assets/images/carousel/carousel-img-16.jpg';
+import carouselImage17 from './assets/images/carousel/carousel-img-17.jpg';
 
-import carouselImage18 from './assets/images/carousel/carousel-img-18.png';
-import carouselImage19 from './assets/images/carousel/carousel-img-19.png';
-import carouselImage20 from './assets/images/carousel/carousel-img-20.png';
-import carouselImage21 from './assets/images/carousel/carousel-img-21.png';
-import carouselImage22 from './assets/images/carousel/carousel-img-22.png';
-import carouselImage23 from './assets/images/carousel/carousel-img-23.png';
-import carouselImage24 from './assets/images/carousel/carousel-img-24.png';
-import carouselImage25 from './assets/images/carousel/carousel-img-25.png';
+import carouselImage18 from './assets/images/carousel/carousel-img-18.jpg';
+import carouselImage19 from './assets/images/carousel/carousel-img-19.jpg';
+import carouselImage20 from './assets/images/carousel/carousel-img-20.jpg';
+import carouselImage21 from './assets/images/carousel/carousel-img-21.jpg';
+import carouselImage22 from './assets/images/carousel/carousel-img-22.jpg';
+import carouselImage23 from './assets/images/carousel/carousel-img-23.jpg';
+import carouselImage24 from './assets/images/carousel/carousel-img-24.jpg';
+import carouselImage25 from './assets/images/carousel/carousel-img-25.jpg';
 
-import carouselImage26 from './assets/images/carousel/carousel-img-26.png';
-import carouselImage27 from './assets/images/carousel/carousel-img-27.png';
-import carouselImage28 from './assets/images/carousel/carousel-img-28.png';
-import carouselImage29 from './assets/images/carousel/carousel-img-29.png';
-import carouselImage30 from './assets/images/carousel/carousel-img-30.png';
-import carouselImage31 from './assets/images/carousel/carousel-img-31.png';
-import carouselImage32 from './assets/images/carousel/carousel-img-32.png';
+import carouselImage26 from './assets/images/carousel/carousel-img-26.jpg';
+import carouselImage27 from './assets/images/carousel/carousel-img-27.jpg';
+import carouselImage28 from './assets/images/carousel/carousel-img-28.jpg';
+import carouselImage29 from './assets/images/carousel/carousel-img-29.jpg';
+import carouselImage30 from './assets/images/carousel/carousel-img-30.jpg';
+import carouselImage31 from './assets/images/carousel/carousel-img-31.jpg';
+import carouselImage32 from './assets/images/carousel/carousel-img-32.jpg';
+
+import carouselImage33 from './assets/images/carousel/carousel-img-33.jpg';
+import carouselImage34 from './assets/images/carousel/carousel-img-34.jpg';
+import carouselImage35 from './assets/images/carousel/carousel-img-35.jpg';
+import carouselImage36 from './assets/images/carousel/carousel-img-36.jpg';
+import carouselImage37 from './assets/images/carousel/carousel-img-37.jpg';
+import carouselImage38 from './assets/images/carousel/carousel-img-38.jpg';
+import carouselImage39 from './assets/images/carousel/carousel-img-39.jpg';
+import carouselImage40 from './assets/images/carousel/carousel-img-40.jpg';
+
+import carouselImage41 from './assets/images/carousel/carousel-img-41.jpg';
+import carouselImage42 from './assets/images/carousel/carousel-img-41.jpg';
+import carouselImage43 from './assets/images/carousel/carousel-img-43.jpg';
+import carouselImage44 from './assets/images/carousel/carousel-img-44.jpg';
+import carouselImage45 from './assets/images/carousel/carousel-img-45.jpg';
+import carouselImage46 from './assets/images/carousel/carousel-img-46.jpg';
+import carouselImage47 from './assets/images/carousel/carousel-img-47.jpg';
+import carouselImage48 from './assets/images/carousel/carousel-img-48.jpg';
+
+import carouselImage49 from './assets/images/carousel/carousel-img-49.jpg';
+import carouselImage50 from './assets/images/carousel/carousel-img-50.jpg';
+import carouselImage51 from './assets/images/carousel/carousel-img-51.jpg';
+import carouselImage52 from './assets/images/carousel/carousel-img-52.jpg';
+import carouselImage53 from './assets/images/carousel/carousel-img-53.jpg';
+import carouselImage54 from './assets/images/carousel/carousel-img-54.jpg';
+import carouselImage55 from './assets/images/carousel/carousel-img-55.jpg';
+import carouselImage56 from './assets/images/carousel/carousel-img-56.jpg';
+
+import carouselImage57 from './assets/images/carousel/carousel-img-57.jpg';
+import carouselImage58 from './assets/images/carousel/carousel-img-58.jpg';
+import carouselImage59 from './assets/images/carousel/carousel-img-59.jpg';
+import carouselImage60 from './assets/images/carousel/carousel-img-60.jpg';
+import carouselImage61 from './assets/images/carousel/carousel-img-61.jpg';
+import carouselImage62 from './assets/images/carousel/carousel-img-62.jpg';
+import carouselImage63 from './assets/images/carousel/carousel-img-63.jpg';
+import carouselImage64 from './assets/images/carousel/carousel-img-64.jpg';
+
+import carouselImage65 from './assets/images/carousel/carousel-img-65.jpg';
+import carouselImage66 from './assets/images/carousel/carousel-img-66.jpg';
+import carouselImage67 from './assets/images/carousel/carousel-img-67.jpg';
+import carouselImage68 from './assets/images/carousel/carousel-img-68.jpg';
+import carouselImage69 from './assets/images/carousel/carousel-img-69.jpg';
+import carouselImage70 from './assets/images/carousel/carousel-img-70.jpg';
+import carouselImage71 from './assets/images/carousel/carousel-img-71.jpg';
+import carouselImage72 from './assets/images/carousel/carousel-img-72.jpg';
+
 
 // donation
 import paypal from './assets/images/donation/paypal.png';
@@ -325,12 +371,16 @@ function App() {
                   <p className="win-achievement">Lr drones supplied</p>
                 </div>
                 <div className="win-item">
-                  <p className="win-num">23</p>
+                  <p className="win-num">32</p>
                   <p className="win-achievement">Wings/planes supplied</p>
                 </div>
                 <div className="win-item">
-                  <p className="win-num">11</p>
+                  <p className="win-num">24</p>
                   <p className="win-achievement">Lifter drones</p>
+                </div>
+                <div className="win-item">
+                  <p className="win-num">50+</p>
+                  <p className="win-achievement">Pilots trained</p>
                 </div>
               </div>
             </div>
@@ -431,6 +481,126 @@ function App() {
           </div>
           <div >
             <img className="slide" src={carouselImage32} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage33} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage34} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage35} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage36} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage37} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage38} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage39} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage40} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage41} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage42} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage43} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage44} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage45} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage46} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage47} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage48} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage49} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage50} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage51} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage52} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage53} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage54} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage55} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage56} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage57} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage58} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage59} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage60} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage61} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage62} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage63} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage64} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage65} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage66} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage67} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage68} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage69} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage70} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage71} alt="Nebesna Kara cover image" />
+          </div>
+          <div >
+            <img className="slide" src={carouselImage72} alt="Nebesna Kara cover image" />
           </div>
         </Slider>
         </div>

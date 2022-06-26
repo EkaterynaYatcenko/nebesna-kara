@@ -19,7 +19,7 @@
             margin: 0 auto;
         }
         .work-in-numbers {
-            max-width: 60rem;
+            max-width: 80rem;
             margin: 5rem auto 7rem auto;
             display: flex;
             justify-content: space-between;
@@ -528,6 +528,9 @@
     .slick-dots li button {
         &::before {
             font-size: 1rem;
+        }
+        @include respond(phone) {
+            display: none;
         }
     }
 
